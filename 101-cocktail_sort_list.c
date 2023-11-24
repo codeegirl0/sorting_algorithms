@@ -54,7 +54,7 @@ void cocktail_sort_list(listint_t **list)
 	listint_t *p;
 	int sorted = 0;
 
-	if (!list || !*list || list_len(*list) < 2)
+	if (!list || !*list || mylist_len(*list) < 2)
 		return;
 	p = *list;
 	while (!sorted)
