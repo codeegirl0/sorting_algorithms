@@ -79,7 +79,7 @@ int change_to_int(deck_node_t *node)
 void sort_deck(deck_node_t **deck)
 {
 	int swapped = 1, val1, val2;
-	size_t lo = 0, hi = (deck_len(*deck) - 1), i = 0;
+	size_t lo = 0, hi = (thelen_deck(*deck) - 1), i = 0;
 	deck_node_t *tmp = *deck;
 
 	if (!deck || !(*deck) || !((*deck)->next))
