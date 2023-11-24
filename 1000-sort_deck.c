@@ -7,8 +7,8 @@
 /**
  * next_swapping - swaps node with next node
  *
- * @deck: address of pointer to head
- * @node: node to swap
+ * @deck: address pointer head
+ * @node: node of swaping
  */
 
 void next_swapping(deck_node_t **deck, deck_node_t *node)
@@ -28,9 +28,9 @@ void next_swapping(deck_node_t **deck, deck_node_t *node)
 /**
  * thelen_deck - returns the length of a card deck
  *
- * @h: head node to the deck
+ * @h: node of deck
  *
- * Return: the size of the deck
+ * Return: size of deck
  */
 
 size_t thelen_deck(const deck_node_t *h)
@@ -51,7 +51,7 @@ size_t thelen_deck(const deck_node_t *h)
  *
  * @node: the card node to extract the value from
  *
- * Return: a unique card id
+ * Return: card id
  */
 
 int change_to_int(deck_node_t *node)
@@ -73,7 +73,7 @@ int change_to_int(deck_node_t *node)
 /**
  * sort_deck - sorts the deck with cocktail shaker
  *
- * @deck: the card deck to sort
+ * @deck: sort card deck
  */
 
 void sort_deck(deck_node_t **deck)

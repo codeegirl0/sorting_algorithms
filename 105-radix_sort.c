@@ -1,9 +1,9 @@
 #include "sort.h"
 
 /**
- * radix_sort - sorts an array following the Radix sort algorithm
- * @array: array of ints to sort
- * @size: size of the array
+ * radix_sort - sorts an array by the Radix sort algorithm
+ * @array: array of integers being sort
+ * @size: size to array
  */
 void radix_sort(int *array, size_t size)
 {
@@ -26,10 +26,10 @@ void radix_sort(int *array, size_t size)
 }
 
 /**
- * lsd_sorting_counting - count sort with LSD
- * @array: array to sort
- * @size: size of the array
- * @lsd: least significant digit
+ * lsd_sorting_counting - counting sort wsing lsd
+ * @array: array to be sort
+ * @size: the array size
+ * @lsd: least significant digital
  */
 void lsd_sorting_counting(int *array, size_t size, size_t lsd)
 {

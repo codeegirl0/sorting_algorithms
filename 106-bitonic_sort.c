@@ -2,9 +2,9 @@
 
 
 /**
-* intswapping - swaps index's of array
-* @l: left or low index to swap
-* @r: right or high index
+* intswapping - swaps index of array
+* @l: left or low index for swapping
+* @r: right or high idx
 */
 
 void intswapping(int *l, int *r)
@@ -18,11 +18,11 @@ void intswapping(int *l, int *r)
 
 /**
 * bit_merge - bitonic merge
-* @array: Array slice being merged
+* @array: Array slice to merge
 * @low: lowest index
-* @count: Count of slice
-* @dir: Direction, ascending 1 descending 0
-* @size: size of total array for printing
+* @count:  slice cnt
+* @dir: the direction by ascending 1 descending 0
+* @size:  total array size for printing
 */
 
 void bit_merge(int *array, int low, int count, int dir, size_t size)
@@ -47,9 +47,9 @@ void bit_merge(int *array, int low, int count, int dir, size_t size)
 * bit_sorting - bitonic recursive sort
 * @array: array to sort
 * @low: lowest index
-* @count: Count of slice
-* @dir: Direction, ascending 1 descending 0
-* @size: size of total array for printing
+* @count: Count to slice
+* @dir: ascending 1 descending 0
+* @size: size of total array to print
 */
 
 void bit_sorting(int *array, int low, int count, int dir, size_t size)
@@ -79,8 +79,8 @@ void bit_sorting(int *array, int low, int count, int dir, size_t size)
 
 /**
 * bitonic_sort - Sorts array using bitonic algo
-* @array: Array to sort
-* @size: Size of array
+* @array: Array being sort
+* @size: Size for array
 */
 
 void bitonic_sort(int *array, size_t size)

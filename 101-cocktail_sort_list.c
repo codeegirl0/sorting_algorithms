@@ -18,10 +18,10 @@ size_t mylist_len(listint_t *list)
 	return (len);
 }
 
-/**
- * nodes_switching - function swaps nodes at pointer p with the following node
+/**with
+ * nodes_switching - function swaps at pointer
  * @list: head of list
- * @p: pointer to node
+ * @p: pointer to the node
  */
 void nodes_switching(listint_t **list, listint_t **p)
 {

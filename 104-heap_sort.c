@@ -1,11 +1,11 @@
 #include "sort.h"
 
 /**
-* mystupif - recurrssive heapfiy function
-* @array: Array to sort
-* @heap: size of heap data
+* mystupif - recurrssive heap func
+* @array: Array to be sort
+* @heap: size for heap data
 * @i: index
-* @size: size of array
+* @size: arr size
 */
 
 void mystupif(int *array, int heap, int i, int size)
